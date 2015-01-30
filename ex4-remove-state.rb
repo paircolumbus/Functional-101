@@ -5,7 +5,7 @@
 
 def game
   time = 5
-  car_positions = Array.new(3,1)
+  car_positions = Array.new(3, 1)
 
   while time >= 0
     time -= 1
@@ -14,7 +14,7 @@ def game
     (car_positions.length).times do |i|
       car_positions[i] += 1 if rand(0..5) > 3
 
-      print "#{i} #{'-' * car_positions[i]} \n"
+      puts "#{i} #{'-' * car_positions[i]}"
     end
 
   end
