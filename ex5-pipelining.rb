@@ -3,8 +3,8 @@
 
 
 bands = [
-    {'name' => 'sunset rubdown', 'country' => 'UK', 'active' => false},
-    {'name' => 'women', 'country' => 'Germany', 'active' => false}, 
+  {'name' => 'sunset rubdown', 'country' => 'UK', 'active' => false},
+  {'name' => 'women', 'country' => 'Germany', 'active' => false}, 
   {'name' => 'a silver mt. zion', 'country' => 'Spain', 'active' => true}
 ]
 

@@ -9,6 +9,6 @@ people = [
   {name: 'Sam'}
 ]
 
-#Compute the average height of the objects (that have a height) using a combination of map & reduce. 
+# Compute the average height of the objects (that have a height) using a combination of map & reduce. 
 
 ## Implement your code below

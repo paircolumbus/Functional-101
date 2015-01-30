@@ -1,4 +1,4 @@
-#Functional Programming: A Primer
+# Functional Programming: A Primer
 
 __Skill Level:__ Intermediate  
 __Time Limit:__ 30-45 minutes  
@@ -10,11 +10,11 @@ Though, there are a lot of terms & properties associated with FP including immut
 > The absence of side effects. It doesn't rely on data outside the current function, and it doesnt change data that exists outside the current function.
 > -- Mary Rose Cook
 
-##Instructions
+## Instructions
 - Implement each exercise and follow the instructions 
 - Review these [glossary terms](/glossary.md)
 
-##Things to consider
+## Things to consider
 - Do not use shared or global variables
 - Don't iterate over lists. Use map and reduce
 - Use functions that take parameters 
@@ -22,7 +22,7 @@ Though, there are a lot of terms & properties associated with FP including immut
 - Handle all data changes with return values
 - Utilize recursion when possible
 
-##Sources
+## Sources
 - [Wikipedia: Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
 - [Don't be scared of FP](http://www.smashingmagazine.com/2014/07/02/dont-be-scared-of-functional-programming/)
 - [Primary Source: An introduction to functional programming](https://codewords.hackerschool.com/issues/one/an-introduction-to-functional-programming)
