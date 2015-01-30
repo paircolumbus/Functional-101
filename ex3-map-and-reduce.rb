@@ -12,3 +12,9 @@ people = [
 # Compute the average height of the objects (that have a height) using a combination of map & reduce. 
 
 ## Implement your code below
+
+def heights(people)
+  people.map { |person| person[:height] }.compact
+end
+
+puts heights(people).reduce(&:+) / heights(people).length

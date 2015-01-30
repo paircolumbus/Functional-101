@@ -11,3 +11,4 @@ end
 
 
 ## Implement your code below
+puts sent.reduce(0) { |sum, string| string.include?('Sam') ? sum + 1 : sum }

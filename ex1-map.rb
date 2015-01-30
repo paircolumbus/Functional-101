@@ -10,3 +10,4 @@ end
 # Create a functional simple map that takes a list of names and returns a list of the lengths of those names. It should not mutate the original data.
 
 ## Implement your code below
+p ['Jamal', 'Suzette', 'Mysore'].map(&:length)

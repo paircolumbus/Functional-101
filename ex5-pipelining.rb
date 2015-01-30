@@ -19,7 +19,12 @@ end
 # Implement your functional solution below and take into account our "Things to consider" from the README. Your solution should include a pipeline function that utilizes several transformation functions. Ask for a code review when you're done.
 
 def pipeline_each(bands)
-  # your solution here
+  bands.map do |band|
+    band.merge({
+      'name' => band['name'].gsub(/\./, '').capitalize,
+      'country' => 'Canada'
+    })
+  end
 end
 
-# your solution here
+p pipeline_each bands
