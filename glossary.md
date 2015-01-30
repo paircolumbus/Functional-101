@@ -1,5 +1,5 @@
-#Glossary
-Here's some terms to familiarize yourself with...
+# Glossary
+Here are some terms to familiarize yourself with...
 
 __Immutable data:__ data that cannot be changed.
 
